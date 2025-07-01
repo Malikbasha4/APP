@@ -1,11 +1,12 @@
-streamlit
-transformers
-nltk
-spacy
-scikit-learn
-textstat
-langdetect
-wordcloud
-matplotlib
-torch
-sentencepiece
+    streamlit
+    transformers==4.30.2 # A common stable version
+    nltk
+    spacy==3.5.0 # Ensure compatibility with your spaCy model (en_core_web_sm)
+    scikit-learn
+    textstat
+    langdetect
+    wordcloud
+    matplotlib
+    torch==2.0.1 # A common stable version for CPU (Streamlit Cloud typically uses CPU)
+    sentencepiece
+    
