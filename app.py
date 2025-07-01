@@ -130,7 +130,7 @@ def generate_wordcloud(text, keywords):
         if word not in word_freq:
             word_freq[word] = 1
 
-    wordcloud = WordCloud(width=800, height=400, background_color='white',
+    wordcloud = WordCloud(width=801, height=400, background_color='white',
                           max_words=50, collocations=False).generate_from_frequencies(word_freq)
 
     fig, ax = plt.subplots(figsize=(10, 5))
