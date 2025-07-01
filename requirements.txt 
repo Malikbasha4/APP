@@ -1,0 +1,11 @@
+streamlit
+transformers
+nltk
+spacy
+scikit-learn
+textstat
+langdetect
+wordcloud
+matplotlib
+torch
+sentencepiece
